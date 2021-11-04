@@ -1,0 +1,139 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-color: #000;
+	font-family: arial;
+}
+
+
+.ibi{
+	background-color: #FF0000;
+	border: 1px solid #000;
+	color: #FFF;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	width: 20px;
+	position: relative;
+	left: 670px;
+	top: 10px;
+}
+
+#content{
+	width: 960px;
+	background-color: #FFF;
+	margin: 50px auto;
+	text-align: center;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	position: relative;
+}
+#content h1 h3{
+	text-decoration: underline;
+	padding-bottom: 20px;
+}
+#content form label{
+	display: block;
+	float: left;
+	width: 200px;
+	position: absolute;
+	left: 150px;
+}
+#content form input,textarea{
+	border: 1px solid #000;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	width: 200px;
+	margin: 5px;
+}
+#content form input[type=submit] input[type=file]{
+	width: 100px;
+	background-color: #000;
+	color: #FFF;
+	cursor:pointer;
+}
+#content .error{
+	color: red;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	margin: 2px auto;
+	width: 300px;
+	background-color: #CCC;
+}
+
+#content .success{
+	color: green;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	margin: 2px auto;
+	width: 300px;
+	background-color: #CCC;
+}
+
+#content .header{
+	text-align:right;
+	margin-right: 5px;
+}
+
+#content .menu
+{
+	height: 35px;
+	line-height: 1.5em;
+	background-color: #cdd3fd;
+	border: 1px solid #000;
+}
+
+#content .menu ul li
+{
+	float: left;
+	list-style: none;
+	line-height: 36px;
+	border-left: 1px solid #000;
+}
+
+#content .menu ul li a
+{
+	color: #000;
+	text-decoration: none;
+	padding: 25px;
+}	
+
+#content .menu li.nbr
+{
+	color: green;
+	padding-left:20px;
+}
+
+#content .info
+{
+	text-align: left;
+	padding: 20px;
+}
+
+#content .info p strong
+{
+	text-decoration: underline;
+}
+
+#content .info p em
+{
+	color: blue;
+}
+
+#content img
+{
+	border:1px solid #000;
+}
+
+#content .info p a 
+{
+	color: red;
+	padding-left: 30px;
+}
+
